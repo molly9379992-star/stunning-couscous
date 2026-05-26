@@ -221,3 +221,25 @@
 
 Найди все нарушения правил площадок, запрещённые фразы и несоответствия.
 ```
+
+
+---
+
+# Обязательные файлы для чтения перед работой
+
+> quality_check_agent является финальным шагом проверки — другие агенты проходят проверку через него. Перед каждой проверкой прочитать все файлы ниже.
+
+## Читать при каждой проверке:
+- `00_БАЗА_KAVCOSMO/platform_rules.md`
+- `00_БАЗА_KAVCOSMO/forbidden_claims.md`
+- `00_БАЗА_KAVCOSMO/prices_and_offers.md`
+- `00_БАЗА_KAVCOSMO/brand_rules.md`
+- `00_БАЗА_KAVCOSMO/content_style.md`
+
+## Дополнительно (при проверке контента об услугах):
+- `00_БАЗА_KAVCOSMO/services_facts.md`
+- `00_БАЗА_KAVCOSMO/client_objections.md`
+
+## Дополнительно (при проверке контента об оборудовании):
+- `00_БАЗА_KAVCOSMO/equipment_facts.md`
+- `00_БАЗА_KAVCOSMO/client_objections.md`
